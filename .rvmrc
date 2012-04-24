@@ -1,0 +1,1 @@
+rvm --create use default@mothers_day > /dev/null
