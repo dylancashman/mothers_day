@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @celebration.name %>
+</p>
+
+<p>
+  <b>Email address:</b>
+  <%= @celebration.email_address %>
+</p>
+
+<p>
+  <b>Message:</b>
+  <%= @celebration.message %>
+</p>
+
+
+<%= link_to 'Edit', edit_celebration_path(@celebration) %> |
+<%= link_to 'Back', celebrations_path %>
